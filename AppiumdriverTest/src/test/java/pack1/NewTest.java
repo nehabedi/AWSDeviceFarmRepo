@@ -53,16 +53,15 @@ public class NewTest
 		  Assert.fail("Error - Button Not Found! ");
 	  }
 		  
-	  String screenshot1 = "xyz";
+	  String screenshot1 = "firstT";
 	  takeScreenshot(screenshot1);
   }
   
- /* @Test
+  @Test
   public void secondT() 
   {
-	  String screenshot2 = null;
-	  takeScreenshot(screenshot2);
-  }*/
+	 Assert.fail("Failing Test Case for Testing Purpose.- NOT A VALID FAILURE - IGNORE!!!");
+  }
   
   @AfterMethod
   public static void tearDownClass() 
